@@ -1,4 +1,4 @@
-# Image Upload for elm 0.19
+# File Upload for elm 0.19
 
 The code in this repository is taken from a [blog post](https://www.paramander.com/blog/using-ports-to-deal-with-files-in-elm-0-17) written by Tolga Paksoy.
 

@@ -1,7 +1,7 @@
-port module Ports exposing (ImagePortData, fileContentRead, fileSelected)
+port module Ports exposing (FilePortData, fileContentRead, fileSelected)
 
 
-type alias ImagePortData =
+type alias FilePortData =
     { contents : String
     , filename : String
     }
@@ -10,4 +10,4 @@ type alias ImagePortData =
 port fileSelected : String -> Cmd msg
 
 
-port fileContentRead : (ImagePortData -> msg) -> Sub msg
+port fileContentRead : (FilePortData -> msg) -> Sub msg
